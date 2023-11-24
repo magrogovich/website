@@ -10,10 +10,14 @@ nav{
 ul{
     display: flex;
     list-style: none;
+    padding: 0%;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 li{
-    margin-right: 20px;
+    /* margin-right: 20px; */
     
 }
 
@@ -21,3 +25,24 @@ a{
     text-decoration: none;
     color: #049585;
 }
+
+#logo{
+    width: 30%;
+}
+
+#ul-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #049585;
+    transition: 0.3s ease-in-out;
+}
+
+#ul-btn:hover{
+    background-color: #049585;
+    color: white;
+}
+
