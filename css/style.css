@@ -18,10 +18,6 @@ ul{
     align-items: center;
 }
 
-li{
-    /* margin-right: 20px; */
-    
-}
 
 a{
     text-decoration: none;
@@ -59,11 +55,18 @@ header{
     justify-content: space-around;
 }
 
+.mobile-header{
+    display: none;
+}
+
 .header-text{
     color: white;
     width: 40%;
 }
 
+.mobile-text{
+    display: none;
+}
 
 #par1{
     font-size: 36px;
@@ -137,6 +140,10 @@ header{
 .team-text h2{
     font-size: 30px;
     color: #049585;
+}
+
+.team-text-mobile{
+    display: none;
 }
 
 .element{
@@ -262,6 +269,15 @@ footer{
     line-height: 30px;
 }
 
+.workh-mobile{
+    display: none;
+}
+
+.logo-mobile{
+    display: none;
+}
+
+
 .map{
     width: 90%;
     margin: 0 auto;
@@ -281,3 +297,222 @@ footer{
     margin-top: 50px;
 }
 
+
+.about-header{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-page-text{
+    margin-top: 50px;
+}
+
+.about-page-text h2{
+    color: #049585;
+}
+
+.about-page-text p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-img img{
+    width: 660.03px;
+    height: 290px;
+}
+
+.bg-about{
+    width: 471px;
+    height: 290px;
+    background: linear-gradient(to right,#83DDD3,#CBF5F1);
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.client-feedback{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.client-feedback h2{
+    color: #049585;
+}
+
+.feed{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.client-feedback p{
+    width: 60%;
+}
+
+.examination{
+    width: 90%;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.text-examination{
+    text-align: center;
+    width: 30%;
+    height: fit-content;
+}
+
+.text-examination h2{
+    color: #049585;
+    font-size: 30px;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icon-box p{
+    padding-left: 30px;
+    
+}
+
+.icon-boxs{
+    margin-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    nav{
+        display: none;
+    }
+    .desktop-header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+
+    .desktop-text{
+        display: none;
+    }
+    .mobile-text{
+        display: block;
+    }
+
+    header{
+        display: block;
+        margin-bottom: 50px;
+    }
+    .header-img{
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .header-text{
+        margin: 0 auto;
+        text-align: center;
+        width: 330px;
+    }
+
+    #part1{
+        margin: 0%;
+    }
+
+    #part2{
+        padding: 0%;
+        margin: 0%;
+        font-size: 30px;
+    }
+
+    #par2{
+        padding-bottom: 30px;
+    }
+
+    .boxs{
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .box{
+        margin-bottom: 70px;
+    }
+
+    .about{
+        display: block;
+        text-align: center;
+    }
+
+    .about-text{
+        margin: 0 auto;
+        width: 70%;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .team-text-mobile{
+        display: block;
+    }
+
+    .team-text-desktop{
+        display: none;
+    }
+
+    .team{
+        display: block;
+        text-align: center;
+    }
+
+    .team-text{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .workh-desktop{
+        display: none;
+    }
+
+    .workh-mobile{
+        display: block;
+    }
+
+    .logo-desktop{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+    }
+
+    #workh{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .parts{
+        width: 85%;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+}
