@@ -397,12 +397,18 @@ footer{
     margin-bottom: 50px;
 }
 
+#toggle-btn {
+    display: none;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width: 1024px){
-    nav{
-        display: none;
-    }
+
     .desktop-header{
         display: none;
     }
@@ -515,4 +521,6 @@ footer{
         margin: 0 auto;
         font-size: 13px;
     }
+
 }
+
