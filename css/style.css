@@ -405,15 +405,31 @@ footer{
     cursor: pointer;
 }
 
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 35px;
+    height: 3px;
+    background-color: #049585;
+    margin: 7px;
+}
+
 
 
 @media screen and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
 
     .desktop-header{
         display: none;
     }
     .mobile-header{
         display: block;
+        width: 100%;
     }
 
     .desktop-text{
@@ -421,6 +437,7 @@ footer{
     }
     .mobile-text{
         display: block;
+        
     }
 
     header{
@@ -435,7 +452,7 @@ footer{
     .header-text{
         margin: 0 auto;
         text-align: center;
-        width: 330px;
+        width: 80%;
     }
 
     #part1{
@@ -521,6 +538,33 @@ footer{
         margin: 0 auto;
         font-size: 13px;
     }
+    .burger{
+        display: block;
+    }
 
+    nav {
+        align-items: center;
+    }
+    nav ul{
+        position: absolute;
+        right: 0%;
+        height: 100%;
+        background-color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        top: 40px;
+        transform: translateX(100%);
+    }
+
+
+    .examination{
+        flex-direction: column;
+    }
+
+    .text-examination{
+        margin-top: 50px;
+    }
 }
 
