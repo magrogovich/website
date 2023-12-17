@@ -1,0 +1,10 @@
+.default {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.hover-effect {
+    background-color: #f0f0f0;
+}
