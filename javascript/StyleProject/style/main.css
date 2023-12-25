@@ -1,0 +1,24 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  /* width: 80%; */
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: pink;
+}
+nav img {
+  width: 50px;
+  height: 50px;
+}
+nav ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="assets/logo.png" alt="">
+        <ul>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>Log In</header>
+        <form action="" onsubmit="">
+            <div class="input">
+                <input type="email" placeholder="Email" id="email"><br>
+                <div class="pass">
+                    <input type="password" placeholder="Password" id="password">
+                    <button><img src="assets/lock-solid.svg" id="lock"></button><br>
+                </div>
+                <input type="checkbox" id="remember"> 
+                <label for="">Remember me</label>
+            </div>
+            <button>Log In</button>
+            <p>Don't have an account <a href="signup.html">Register!</a></p>
+        </form>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
