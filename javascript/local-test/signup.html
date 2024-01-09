@@ -1,0 +1,35 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="button" onclick="signup()">Sign Up</button>
+    </form>
+
+    <script>
+        function signup() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Save data to local storage
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+
+            // Redirect to login page
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>

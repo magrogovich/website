@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/logo.png">
+    <title>Sign Up</title>
+</head>
+<body>
+    <nav>
+        <img src="assets/logo.png" alt="">
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>Sign Up</header>
+        <form action="" onsubmit="register();event.preventDefault()">
+            <div class="input">
+                <div class="user">
+                    <input required type="text" placeholder="Name" id="name"><br>
+                    <input type="text" placeholder="Last Name" id="lastname"><br>
+                </div>
+                <input  type="email" placeholder="Email" id="email"><br>
+                <div class="pass">
+                    <input type="password" placeholder="Password" id="password">
+                    <div onclick="print()" id="lockbtn"><img src="assets/lock-solid.svg" class="closelock" id="lock"></div><br>
+                </div>
+                <input  type="date" id="date">
+                <div class="check">
+                    <input  type="checkbox" id="remember"> 
+                    <label for="">Remember me</label>
+                </div>
+            </div>
+            <button type="submit" id="btn" >Sign up</button>
+            <p>Do you have an account? <a href="login.html">login!</a></p>
+        </form>
+        
+    </div>
+
+    <script src="javascript/sign.js"></script>
+    <script src="javascript/btn.js"></script>
+</body>
+</html>
